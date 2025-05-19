@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>MOVIE ROOM - HOME</title>
+        <link rel="stylesheet" href="styles.css" />
+        <script defer src="script.js"></script>
+        <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class="container">
+            <!-- Billboard / Hero Section -->
+            <section class="billboard" id="billboard">
+              <div class="billboard-content" id="billboardContent">
+                <!-- Now Playing movie details will load here -->
+              </div>
+            </section>
+        
+            <!-- Upcoming Movies Section -->
+            <section class="movie-section">
+              <h2>Upcoming Movies</h2>
+              <div class="movie-grid" id="movieGrid">
+                <!-- Upcoming movies will load here -->
+              </div>
+            </section>
+          </div>
+        
+          <!-- Video Modal -->
+          <div id="videoModal" class="video-modal">
+            <div class="video-container">
+              <span id="closeModal" class="close-button">&times;</span>
+              <video id="videoPlayer" controls autoplay>
+                <source id="videoSource" src="" type="video/mp4">
+                Your browser does not support HTML5 video.
+              </video>
+            </div>
+          </div>
+    </body>
+</html>
