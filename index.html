@@ -4,22 +4,85 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>MOVIE ROOM</title>
+    <title>Netflix - Watch TV Shows Online, Watch Movies Online</title>
 </head>
 <body>
-    <header>
-        <h1>WELCOME TO MOVIE ROOM</h1>
-        <H2>WHERE UNLIMITED TV SHOWS, FILMS AND MORE.</H2>
-        <h3>ARE FOUND   WATCH ANYWERE CANCLE ANY TIME FREE & PAYED</h3>
-    <h4>Ready to watch? Enter your email create or restart your memdership</h4>
-       <div ClassName="email_input">
-        <input type="email"
-        placeholder="Email Address"
-        />
-        <BUtton className="email_button">GET STARTED</BUtton>
-       </div>
-   
-    </header>
+    <div class="page">
+        <header class="hero">
+            <nav class="nav">
+                <div class="logo">NETFLIX</div>
+                <div class="nav-actions">
+                    <select aria-label="Select language">
+                        <option>English</option>
+                        <option>Español</option>
+                    </select>
+                    <button class="btn secondary">Sign In</button>
+                </div>
+            </nav>
+            <div class="hero-content">
+                <h1>Unlimited movies, TV shows, and more</h1>
+                <p class="subtitle">Watch anywhere. Cancel anytime.</p>
+                <p class="cta-text">Ready to watch? Enter your email to create or restart your membership.</p>
+                <div class="cta">
+                    <input type="email" placeholder="Email address" />
+                    <button class="btn primary">Get Started</button>
+                </div>
+            </div>
+        </header>
+
+        <section class="feature">
+            <div>
+                <h2>Enjoy on your TV</h2>
+                <p>Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray players, and more.</p>
+            </div>
+            <div class="feature-card">4K Ultra HD • Dolby Atmos</div>
+        </section>
+
+        <section class="feature reverse">
+            <div>
+                <h2>Download your shows to watch offline</h2>
+                <p>Save your favorites easily and always have something to watch.</p>
+            </div>
+            <div class="feature-card">Unlimited downloads</div>
+        </section>
+
+        <section class="feature">
+            <div>
+                <h2>Watch everywhere</h2>
+                <p>Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.</p>
+            </div>
+            <div class="feature-card">Any device • Any time</div>
+        </section>
+
+        <section class="faq">
+            <h2>Frequently Asked Questions</h2>
+            <div class="faq-grid">
+                <article>
+                    <h3>What is Netflix?</h3>
+                    <p>Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, and more.</p>
+                </article>
+                <article>
+                    <h3>How much does Netflix cost?</h3>
+                    <p>Watch Netflix on your smartphone, tablet, smart TV, laptop, or streaming device for one low monthly fee.</p>
+                </article>
+                <article>
+                    <h3>Where can I watch?</h3>
+                    <p>Watch anywhere, anytime. Sign in with your Netflix account to watch instantly.</p>
+                </article>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <p>Questions? Call 1-800-NETFLIX</p>
+            <div class="footer-links">
+                <a href="#">FAQ</a>
+                <a href="#">Help Center</a>
+                <a href="#">Account</a>
+                <a href="#">Media Center</a>
+                <a href="#">Investor Relations</a>
+                <a href="#">Jobs</a>
+            </div>
+        </footer>
+    </div>
 </body>
 </html>
